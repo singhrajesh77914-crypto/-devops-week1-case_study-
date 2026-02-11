@@ -1,1 +1,1 @@
-# -devops-week1-case_study-
+# Week 1 Case Study - DevOps CI Automation
