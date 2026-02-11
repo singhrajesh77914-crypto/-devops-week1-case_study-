@@ -1,0 +1,23 @@
+name: Week1 CI Build
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Echo build time
+        run: echo "Build started at $(date)"
+
+      - name: Run system info script
+        run: bash scripts/system_info.sh
+
+
