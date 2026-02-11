@@ -18,6 +18,6 @@ jobs:
         run: echo "Build started at $(date)"
 
       - name: Run system info script
-        run: bash scripts/system_info.sh
+        run: bash system_info.sh
 
 
